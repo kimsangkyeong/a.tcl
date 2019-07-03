@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   name: apache-deployment2
 spec:
-  replicas: 3
+  replicas: 1
   template:
     metadata:
       labels:
@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: apache
-        image:  52.141.39.195:5000/httpd
+        image:  atclazure.koreacentral.cloudapp.azure.com:5000/httpd
         ports:
         - containerPort: 80
 ---

@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   name: nginx-deployment2
 spec:
-  replicas: 3
+  replicas: 2
   template:
     metadata:
       labels:

@@ -1,4 +1,4 @@
-/* deployment : nginx2 */
+--- /* deployment : nginx2 */
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
@@ -16,7 +16,7 @@ spec:
         ports:
         - containerPort: 80
 
-/* service : nginx2 */
+--- /* service : nginx2 */
 apiVersion: v1
 kind: Service
 metadata:

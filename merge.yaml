@@ -1,9 +1,10 @@
+# deployment : nginx2
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: nginx-deployment2
 spec:
-  replicas: 3
+  replicas: 1
   template:
     metadata:
       labels:

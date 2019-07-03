@@ -12,6 +12,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:1.7.9
+        image: docker.io/purecap/nginx-test:0.1
         ports:
         - containerPort: 80
